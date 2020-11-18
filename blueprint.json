@@ -1,0 +1,29 @@
+{
+	"title": "Ruby",
+	"description": "Ruby",
+	"configuration": {
+		"user": "ruby",
+		"ruby_version": 2.7
+	},
+	"os_packages": {
+		"adds": [
+			"autoconf",
+			"bison",
+			"build-essential",
+			"libssl-dev",
+			"libyaml-dev",
+			"libreadline6-dev",
+			"zlib1g-dev",
+			"libncurses5-dev",
+			"libffi-dev",
+			"libgdbm5",
+			"libgdbm-dev"
+		]
+	},
+	"binding_anchor": {
+		"variables": {
+			"user": "^^user^^",
+			"ruby_version": "^^ruby_version^^"
+		}
+	}
+}

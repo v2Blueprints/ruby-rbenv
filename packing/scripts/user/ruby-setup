@@ -1,0 +1,10 @@
+#!/bin/sh
+
+ id $user
+ 
+if ! test $? -eq 0
+ then
+   useradd -d /home/$user -m -s /usr/bin/bash $user
+fi
+
+su -u $user /tmp/packing/scripts/user/install_rbenv

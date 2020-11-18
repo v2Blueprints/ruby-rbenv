@@ -1,0 +1,16 @@
+#!/bin/sh
+
+git clone https://github.com/rbenv/rbenv.git $HOME/.rbenv
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> $HOME/.bashrc
+
+echo 'eval "$(rbenv init -)"' >> $HOME/.bashrc
+
+$HOME/.rbenv/bin/rbenv init -
+
+git clone https://github.com/rbenv/ruby-build.git $HOME/.rbenv/plugins/ruby-build
+
+$HOME/.rbenv/bin/rbenv install ^^ruby_version^^
+
+echo "gem: --no-document" > $HOME/.gemrc
+
+gem install bundler

@@ -1,6 +1,8 @@
 {
-	"title": "Ruby",
-	"description": "Ruby",
+	"about": {
+		"title": "Ruby",
+		"explanation": "Ruby"
+	},
 	"configuration": {
 		"user": "ruby",
 		"ruby_version": 2.7
@@ -20,10 +22,8 @@
 			"libgdbm-dev"
 		]
 	},
-	"binding_anchor": {
-		"variables": {
-			"user": "^^user^^",
-			"ruby_version": "^^ruby_version^^"
-		}
+	"binding_target": {
+		"user": "^^user^^",
+		"ruby_version": "^^ruby_version^^"
 	}
 }

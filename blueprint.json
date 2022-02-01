@@ -3,10 +3,6 @@
 		"title": "Ruby",
 		"explanation": "Ruby"
 	},
-	"configuration": {
-		"user": "ruby",
-		"ruby_version": 2.7
-	},
 	"os_packages": {
 		"adds": [
 			"autoconf",
@@ -23,7 +19,7 @@
 		]
 	},
 	"binding_target": {
-		"user": "^^user^^",
-		"ruby_version": "^^ruby_version^^"
+		"user": "ruby",
+		"version": 3.1
 	}
 }

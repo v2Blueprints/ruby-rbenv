@@ -9,7 +9,7 @@ $HOME/.rbenv/bin/rbenv init -
 
 git clone https://github.com/rbenv/ruby-build.git $HOME/.rbenv/plugins/ruby-build
 
-$HOME/.rbenv/bin/rbenv install ^^ruby_version^^
+$HOME/.rbenv/bin/rbenv install ^^version^^
 
 echo "gem: --no-document" > $HOME/.gemrc
 

@@ -19,7 +19,9 @@
 		]
 	},
 	"binding_target": {
-		"user": "ruby",
-		"version": 3.1
+		"configuration" : {
+			"user": "ruby",
+			"version": 3.1
+		}
 	}
 }

@@ -3,7 +3,7 @@
 		"title": "Ruby",
 		"explanation": "Ruby"
 	},
-	"os_packages": {
+	"system_packages": {
 		"adds": [
 			"autoconf",
 			"bison",
